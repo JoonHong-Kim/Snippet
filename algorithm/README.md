@@ -16,3 +16,11 @@ if python version is 3.9 or above, you can use math.lcm()
 """
 ~~~
 
+### Palindrome
+~~~ python
+def palindrome(num: str) -> bool:
+    if num == num[::-1]:
+        return True
+    else:
+        return False
+~~~
